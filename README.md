@@ -304,16 +304,16 @@ RAG        RAG          RAG
 ```
 
 Each RAG namespace contains:
-- ✅ Required skills
-- ✅ Preferred skills
-- ✅ Evaluation rubric
-- ✅ Scoring weightage
-- ✅ Project expectations
-- ✅ GitHub relevance criteria
+- Required skills
+- Preferred skills
+- Evaluation rubric
+- Scoring weightage
+- Project expectations
+- GitHub relevance criteria
 
 ---
 
-## 🔄 Application Lifecycle
+## Application Lifecycle
 
 ```
 APPLIED
@@ -380,7 +380,7 @@ FINAL_REVIEW ←──── HUMAN DECISION
 
 ---
 
-## 📈 Success Metrics
+## Success Metrics
 
 ### Efficiency Metrics
 ```
@@ -408,9 +408,9 @@ RAG Retrieval Quality:    > 90%
 
 ---
 
-## 🎯 Why Multi-Agent Architecture?
+## Why Multi-Agent Architecture?
 
-### ❌ Single Large LLM Approach:
+### Single Large LLM Approach:
 ```
 One prompt does everything
 ├─ Hard to debug
@@ -419,7 +419,7 @@ One prompt does everything
 └─ No modular testing
 ```
 
-### ✅ Multi-Agent Approach:
+### Multi-Agent Approach:
 ```
 Specialized agents with specific purposes
 ├─ Easy to debug
@@ -431,7 +431,7 @@ Specialized agents with specific purposes
 
 ---
 
-## 🔍 Example: Candidate Evaluation
+## Example: Candidate Evaluation
 
 ```
 Candidate: John Doe
@@ -439,45 +439,45 @@ Role: AI/ML Engineer
 
 ─────────────────────────────────────
 RESUME PARSING
-✓ Skills: [Python, TensorFlow, PyTorch, ML, NLP, AWS]
-✓ Experience: 4 years
-✓ Education: MS Computer Science
-✓ Projects: 3 ML projects
-✓ Confidence: 95%
+Skills: [Python, TensorFlow, PyTorch, ML, NLP, AWS]
+Experience: 4 years
+Education: MS Computer Science
+Projects: 3 ML projects
+Confidence: 95%
 
 ─────────────────────────────────────
 SKILL MATCHING
-✓ Python → Python (exact match)
-✓ TensorFlow → PyTorch/TF requirement (match)
-✓ NLP → NLP (exact match)
-✓ AWS → Cloud requirement (semantic match)
-✗ Missing: Kubernetes (preferred)
+Python → Python (exact match)
+TensorFlow → PyTorch/TF requirement (match)
+NLP → NLP (exact match)
+AWS → Cloud requirement (semantic match)
+Missing: Kubernetes (preferred)
 Score: 90%
 
 ─────────────────────────────────────
 GITHUB ANALYSIS
-✓ 15 repositories found
-✓ Primary languages: Python (60%), Jupyter (30%)
-✓ Notable repos:
+15 repositories found
+Primary languages: Python (60%), Jupyter (30%)
+Notable repos:
   • sentiment-analysis (150 stars)
   • object-detection-yolo
   • ml-pipeline
-✓ 300+ commits in last year
+300+ commits in last year
 Score: 85%
 
 ─────────────────────────────────────
 OPEN SOURCE VERIFICATION
 Claim: "Contributed to TensorFlow"
-✓ Found 2 PRs merged
-✓ Author email matches
+Found 2 PRs merged
+Author email matches
 Status: VERIFIED
 
 ─────────────────────────────────────
 PROJECT EVALUATION
 Project: Sentiment Analysis
-✓ Completeness: 90%
-✓ Documentation: Strong
-✓ Live Demo: Available
+Completeness: 90%
+Documentation: Strong
+Live Demo: Available
 Score: 88%
 
 Overall Project Depth: 85%
@@ -496,13 +496,13 @@ RECOMMENDATION: STRONGLY CONSIDER
 
 ─────────────────────────────────────
 STRENGTHS
-✓ Strong Python & ML framework experience
-✓ Verified TensorFlow open-source contributions
-✓ High-quality personal projects with documentation
-✓ Active GitHub presence
+Strong Python & ML framework experience
+Verified TensorFlow open-source contributions
+High-quality personal projects with documentation
+Active GitHub presence
 
 POTENTIAL GAPS
-⚠ Limited Kubernetes/MLOps experience
+Limited Kubernetes/MLOps experience
 
 EVIDENCE
 • GitHub: github.com/john
@@ -512,7 +512,7 @@ EVIDENCE
 
 ---
 
-## 🎓 Key Features
+## Key Features
 
 ### 1. Role-Specific Evaluation
 Each role has customized criteria, weightage, and evaluation pipelines.
@@ -540,38 +540,38 @@ Every action logged for compliance and review.
 
 ---
 
-## 📋 Requirements from Company
+## Requirements from Company
 
 Before implementation, the company must provide:
 
 ### Data & Content
-- ✅ Standardized job description templates
-- ✅ Required & preferred skills per role
-- ✅ Evaluation weightage per role
-- ✅ Agreement from hiring managers on scoring approach
-- ✅ HR policies for candidate data handling
+- Standardized job description templates
+- Required & preferred skills per role
+- Evaluation weightage per role
+- Agreement from hiring managers on scoring approach
+- HR policies for candidate data handling
 
 ### Access & Integrations
-- ✅ GitHub organization/API access (if needed)
-- ✅ Email/calendar platform credentials
-- ✅ Cloud storage account
-- ✅ LLM provider API access
-- ✅ Approved API budget and rate limits
+- GitHub organization/API access (if needed)
+- Email/calendar platform credentials
+- Cloud storage account
+- LLM provider API access
+- Approved API budget and rate limits
 
 ### Approvals & Decisions
-- ✅ Evaluation criteria per role
-- ✅ Data retention and deletion policy
-- ✅ Who can override AI-generated scores
-- ✅ HR/hiring-manager approval workflow
-- ✅ Infrastructure budget
+- Evaluation criteria per role
+- Data retention and deletion policy
+- Who can override AI-generated scores
+- HR/hiring-manager approval workflow
+- Infrastructure budget
 
 ### People
-- ✅ One HR point of contact
-- ✅ One engineering leadership point of contact
+- One HR point of contact
+- One engineering leadership point of contact
 
 ---
 
-## 🎯 Final Objective
+## Final Objective
 
 Transform hiring from:
 
